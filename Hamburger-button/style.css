@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+#clickHereDiv {
+  position: fixed;
+  top: 24px;
+  right: 80px;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+#clickHereDiv.active {
+  transform: translateX(-100px);
+}
+button {
+  background-color: white;
+  border: solid 2px;
+  border-radius: 6px;
+  border-color: rgba(27, 31, 35, 0.15);
+  box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04),
+    inset 0 1px 0 hsla(0, 0%, 100%, 0.25);
+  cursor: pointer;
+  color: #24292e;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  outline: none;
+  transition: transform 0.3s ease-in-out;
+  height: 2rem;
+  width: 2rem;
+}
+button:hover {
+  background-color: #f3f4f6;
+  border: solid 2px;
+  border-radius: 6px;
+  border-color: rgba(27, 31, 35, 0.15);
+  box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04),
+    inset 0 1px 0 hsla(0, 0%, 100%, 0.25);
+  cursor: pointer;
+  color: #24292e;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+button.active {
+  transform: translateX(-100px);
+}
+nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  background-color: lightblue;
+  padding: 2rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+nav.active {
+  transform: translateX(0);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 1rem 0;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightslategray;
+  text-decoration: none;
+}
