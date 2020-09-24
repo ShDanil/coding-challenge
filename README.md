@@ -1,76 +1,66 @@
-## Coding Challenge - 10 JavaScript Projects
+## Coding Challenge - JavaScript Projects
 
 1. Hamburger Button
 
--   button + hamburger icon
--   menu > li > a -> hidden
--   toggle on click
--   animation
+- button + hamburger icon
+- menu > li > a -> hidden
+- toggle on click
+- animation
 
 2. Toast Notification
 
--   toast container floating
--   toast design
--   button
--   click show random toast message
+- toast container floating
+- toast design
+- button
+- click show random toast message
 
 3. Auto Write Text
 
--   text
--   index
--   show text based on index
--   increment index
+- text
+- index
+- show text based on index
+- increment index
 
 4. Popup / Modal
 
--   button
--   click on button to activate popup
--   popup container
--   popup with text
--   close btn popup with click event
+- button
+- click on button to activate popup
+- popup container
+- popup with text
+- close btn popup with click event
 
-5. Purple Heart Rain
+5. Background Changer
 
--   heart css
--   falling animation
--   create heart
--   add class
--   add it to body
--   interval
+- button w/ click
+- generate color
+- change bg color on click
 
-6. Background Changer
+6. Dark mode toggle
 
--   button w/ click
--   generate color
--   change bg color on click
+- text
+- css for dark mode
+- toggle
+- toggle event
 
-7. Dark mode toggle
+7. Carousel
 
--   text
--   css for dark mode
--   toggle
--   toggle event
+- 3/4 images
+- carousel container
+- images container
+- images with fixed width and height
+- index
+- automatic switch index and update container transform property
 
-8. Carousel
+8. Sound Board
 
--   3/4 images
--   carousel container
--   images container
--   images with fixed width and height
--   index
--   automatic switch index and update container transform property
+- sounds (HAVE THESE READY SIR)
+- array with names
+- loop over array
+- create buttons w/ text
+- play sound on click
 
-9. Sound Board
+9. Zoom effect
 
--   sounds (HAVE THESE READY SIR)
--   array with names
--   loop over array
--   create buttons w/ text
--   play sound on click
-
-10. Zoom effect
-
--   image
--   track mouse movement
--   set transform origin on hover
-
+- image
+- track mouse movement
+- set transform origin on hover
