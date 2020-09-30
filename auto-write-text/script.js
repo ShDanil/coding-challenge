@@ -11,4 +11,4 @@ function createText() {
 
 setInterval(() => {
   createText();
-}, 100);
+}, 200);
